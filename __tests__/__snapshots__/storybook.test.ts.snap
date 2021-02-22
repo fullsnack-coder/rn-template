@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Typography heading - bold 1`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    fontSize={36}
+    fontWeight="bold"
+    style={
+      Array [
+        Object {
+          "fontSize": 36,
+          "fontWeight": "bold",
+        },
+      ]
+    }
+  >
+    Heading bold
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography heading - default 1`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    fontSize={36}
+    style={
+      Array [
+        Object {
+          "fontSize": 36,
+        },
+      ]
+    }
+  >
+    Heading - default
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography heading - h1 1`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    fontSize={48}
+    style={
+      Array [
+        Object {
+          "fontSize": 48,
+        },
+      ]
+    }
+  >
+    Heading h1
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography heading - h2 1`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    fontSize={36}
+    style={
+      Array [
+        Object {
+          "fontSize": 36,
+        },
+      ]
+    }
+  >
+    Heading h2
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography heading - h3 1`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    fontSize={24}
+    style={
+      Array [
+        Object {
+          "fontSize": 24,
+        },
+      ]
+    }
+  >
+    Heading h3
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography heading - h4 1`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    fontSize={18}
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    Heading h4
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography heading - h5 1`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    fontSize={14}
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+        },
+      ]
+    }
+  >
+    Heading h5
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography heading - h6 1`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    fontSize={12}
+    style={
+      Array [
+        Object {
+          "fontSize": 12,
+        },
+      ]
+    }
+  >
+    Heading h6
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography heading - h7 1`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    fontSize={10}
+    style={
+      Array [
+        Object {
+          "fontSize": 10,
+        },
+      ]
+    }
+  >
+    Heading h7
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typography paragraph 1`] = `
+<View
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {},
+      ]
+    }
+  >
+    Sample paragraph
+  </Text>
+</View>
+`;

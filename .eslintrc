@@ -2,6 +2,7 @@
   "root": true,
   "extends": "@react-native-community",
   "rules": {
-    "react-native/no-inline-styles": "warn"
+    "react-native/no-inline-styles": "warn",
+    "semi": "off"
   }
 }
