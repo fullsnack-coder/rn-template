@@ -1,8 +1,8 @@
 import React from 'react';
-import {Text, StatusBar, View, StyleProp, ViewStyle} from 'react-native';
-import {NavigationContainer} from '@react-navigation/native';
-import {ScrollView} from 'react-native-gesture-handler';
-import {SafeAreaProvider, SafeAreaView} from 'react-native-safe-area-context';
+import { Text, StatusBar, View, StyleProp, ViewStyle } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { ScrollView } from 'react-native-gesture-handler';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
 const App = () => {
   const containerStyles: StyleProp<ViewStyle> = {
@@ -14,10 +14,10 @@ const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView edges={['top']} style={{flex: 1}}>
+      <SafeAreaView edges={['top']} style={{ flex: 1 }}>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
-          contentContainerStyle={{flex: 1}}>
+          contentContainerStyle={{ flex: 1 }}>
           <View style={containerStyles}>
             <Text>Initial configuration</Text>
           </View>
