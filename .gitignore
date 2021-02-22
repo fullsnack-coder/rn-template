@@ -65,3 +65,6 @@ buck-out/
 #dependecies locks
 yarn.lock
 package-lock.json
+
+#coverage
+coverage

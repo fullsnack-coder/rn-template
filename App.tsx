@@ -3,6 +3,7 @@ import { Text, StatusBar, View, StyleProp, ViewStyle } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
 import { ScrollView } from 'react-native-gesture-handler'
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context'
+import { ThemeProvider } from './src/theme'
 
 const App = () => {
   const containerStyles: StyleProp<ViewStyle> = {
@@ -29,9 +30,11 @@ const App = () => {
 
 const AppWrapper = () => (
   <SafeAreaProvider>
-    <NavigationContainer>
-      <App />
-    </NavigationContainer>
+    <ThemeProvider>
+      <NavigationContainer>
+        <App />
+      </NavigationContainer>
+    </ThemeProvider>
   </SafeAreaProvider>
 )
 
