@@ -2,11 +2,18 @@ import React from 'react'
 import { ThemeProvider as StyledThemeProvider } from 'styled-components/native'
 import { lightTheme, darkTheme } from './theme'
 
-const fakeConfig = { isDarkMode: false }
+type Props = {
+  darkMode?: boolean
+}
 
-export const ThemeProvider: React.FC = ({ children }) => {
-  const { isDarkMode } = fakeConfig
-  const appTheme = { colors: isDarkMode ? darkTheme : lightTheme }
-
-  return <StyledThemeProvider theme={appTheme}>{children}</StyledThemeProvider>
+export const ThemeProvider: React.FC<Props> = ({
+  children,
+  darkMode = false,
+}) => {
+  const appTheme = darkMode ? darkTheme : lightTheme
+  return (
+    <StyledThemeProvider theme={{ ...appTheme, darkMode }}>
+      {children}
+    </StyledThemeProvider>
+  )
 }
