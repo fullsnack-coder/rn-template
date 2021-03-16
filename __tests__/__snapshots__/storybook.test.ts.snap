@@ -1,230 +1,172 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Typography heading - bold 1`] = `
-<View
-  style={
+<RCTScrollView
+  contentContainerStyle={
     Object {
       "padding": 20,
     }
   }
 >
-  <Text
-    fontSize={36}
-    fontWeight="bold"
-    style={
-      Array [
-        Object {
-          "fontSize": 36,
-          "fontWeight": "bold",
-        },
-      ]
-    }
-  >
-    Heading bold
-  </Text>
-</View>
+  <View>
+    <Text
+      fontSize={36}
+      fontWeight="bold"
+      style={
+        Array [
+          Object {
+            "fontSize": 36,
+            "fontWeight": "bold",
+          },
+        ]
+      }
+    >
+      Heading bold
+    </Text>
+  </View>
+</RCTScrollView>
 `;
 
 exports[`Storyshots Typography heading - default 1`] = `
-<View
-  style={
+<RCTScrollView
+  contentContainerStyle={
     Object {
       "padding": 20,
     }
   }
 >
-  <Text
-    fontSize={36}
-    style={
-      Array [
-        Object {
-          "fontSize": 36,
-        },
-      ]
-    }
-  >
-    Heading - default
-  </Text>
-</View>
+  <View>
+    <Text
+      fontSize={36}
+      style={
+        Array [
+          Object {
+            "fontSize": 36,
+          },
+        ]
+      }
+    >
+      Heading - default
+    </Text>
+  </View>
+</RCTScrollView>
 `;
 
-exports[`Storyshots Typography heading - h1 1`] = `
-<View
-  style={
+exports[`Storyshots Typography heading - variants 1`] = `
+<RCTScrollView
+  contentContainerStyle={
     Object {
       "padding": 20,
     }
   }
 >
-  <Text
-    fontSize={48}
-    style={
-      Array [
-        Object {
-          "fontSize": 48,
-        },
-      ]
-    }
-  >
-    Heading h1
-  </Text>
-</View>
-`;
-
-exports[`Storyshots Typography heading - h2 1`] = `
-<View
-  style={
-    Object {
-      "padding": 20,
-    }
-  }
->
-  <Text
-    fontSize={36}
-    style={
-      Array [
-        Object {
-          "fontSize": 36,
-        },
-      ]
-    }
-  >
-    Heading h2
-  </Text>
-</View>
-`;
-
-exports[`Storyshots Typography heading - h3 1`] = `
-<View
-  style={
-    Object {
-      "padding": 20,
-    }
-  }
->
-  <Text
-    fontSize={24}
-    style={
-      Array [
-        Object {
-          "fontSize": 24,
-        },
-      ]
-    }
-  >
-    Heading h3
-  </Text>
-</View>
-`;
-
-exports[`Storyshots Typography heading - h4 1`] = `
-<View
-  style={
-    Object {
-      "padding": 20,
-    }
-  }
->
-  <Text
-    fontSize={18}
-    style={
-      Array [
-        Object {
-          "fontSize": 18,
-        },
-      ]
-    }
-  >
-    Heading h4
-  </Text>
-</View>
-`;
-
-exports[`Storyshots Typography heading - h5 1`] = `
-<View
-  style={
-    Object {
-      "padding": 20,
-    }
-  }
->
-  <Text
-    fontSize={14}
-    style={
-      Array [
-        Object {
-          "fontSize": 14,
-        },
-      ]
-    }
-  >
-    Heading h5
-  </Text>
-</View>
-`;
-
-exports[`Storyshots Typography heading - h6 1`] = `
-<View
-  style={
-    Object {
-      "padding": 20,
-    }
-  }
->
-  <Text
-    fontSize={12}
-    style={
-      Array [
-        Object {
-          "fontSize": 12,
-        },
-      ]
-    }
-  >
-    Heading h6
-  </Text>
-</View>
-`;
-
-exports[`Storyshots Typography heading - h7 1`] = `
-<View
-  style={
-    Object {
-      "padding": 20,
-    }
-  }
->
-  <Text
-    fontSize={10}
-    style={
-      Array [
-        Object {
-          "fontSize": 10,
-        },
-      ]
-    }
-  >
-    Heading h7
-  </Text>
-</View>
+  <View>
+    <Text
+      fontSize={48}
+      style={
+        Array [
+          Object {
+            "fontSize": 48,
+          },
+        ]
+      }
+    >
+      El veloz murciélago hindú comía feliz cardillo y kiwi. H1
+    </Text>
+    <Text
+      fontSize={36}
+      style={
+        Array [
+          Object {
+            "fontSize": 36,
+          },
+        ]
+      }
+    >
+      El veloz murciélago hindú comía feliz cardillo y kiwi. H2
+    </Text>
+    <Text
+      fontSize={24}
+      style={
+        Array [
+          Object {
+            "fontSize": 24,
+          },
+        ]
+      }
+    >
+      El veloz murciélago hindú comía feliz cardillo y kiwi. H3
+    </Text>
+    <Text
+      fontSize={18}
+      style={
+        Array [
+          Object {
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      El veloz murciélago hindú comía feliz cardillo y kiwi. H4
+    </Text>
+    <Text
+      fontSize={14}
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      El veloz murciélago hindú comía feliz cardillo y kiwi. H5
+    </Text>
+    <Text
+      fontSize={12}
+      style={
+        Array [
+          Object {
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      El veloz murciélago hindú comía feliz cardillo y kiwi. H6
+    </Text>
+    <Text
+      fontSize={10}
+      style={
+        Array [
+          Object {
+            "fontSize": 10,
+          },
+        ]
+      }
+    >
+      El veloz murciélago hindú comía feliz cardillo y kiwi. H7
+    </Text>
+  </View>
+</RCTScrollView>
 `;
 
 exports[`Storyshots Typography paragraph 1`] = `
-<View
-  style={
+<RCTScrollView
+  contentContainerStyle={
     Object {
       "padding": 20,
     }
   }
 >
-  <Text
-    style={
-      Array [
-        Object {},
-      ]
-    }
-  >
-    Sample paragraph
-  </Text>
-</View>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      El veloz murciélago hindú comía feliz cardillo y kiwi.
+    </Text>
+  </View>
+</RCTScrollView>
 `;
