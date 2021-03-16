@@ -1,6 +1,6 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react'
-import { View } from 'react-native'
+import { ScrollView } from 'react-native'
 import { storiesOf } from '@storybook/react-native'
 import { text } from '@storybook/addon-knobs'
 
@@ -9,31 +9,67 @@ import Heading from '../heading'
 
 storiesOf('Typography', module)
   .addDecorator((story: any) => (
-    <View style={{ padding: 20 }}>{story?.()}</View>
+    <ScrollView contentContainerStyle={{ padding: 20 }}>{story?.()}</ScrollView>
   ))
-  .add('paragraph', () => <Paragraph>Sample paragraph</Paragraph>)
+  .add('paragraph', () => (
+    <>
+      <Paragraph>
+        El veloz murciélago hindú comía feliz cardillo y kiwi.
+      </Paragraph>
+    </>
+  ))
   .add('heading - default', () => <Heading>Heading - default</Heading>)
   .add('heading - bold', () => (
-    <Heading fontWeight="bold">{text('Heading text', 'Heading bold')}</Heading>
+    <Heading fontWeight="bold">
+      {text(
+        'El veloz murciélago hindú comía feliz cardillo y kiwi.',
+        'Heading bold',
+      )}
+    </Heading>
   ))
-  .add('heading - h1', () => (
-    <Heading as="h1">{text('Heading text', 'Heading h1')}</Heading>
-  ))
-  .add('heading - h2', () => (
-    <Heading as="h2">{text('Heading text', 'Heading h2')}</Heading>
-  ))
-  .add('heading - h3', () => (
-    <Heading as="h3">{text('Heading text', 'Heading h3')}</Heading>
-  ))
-  .add('heading - h4', () => (
-    <Heading as="h4">{text('Heading text', 'Heading h4')}</Heading>
-  ))
-  .add('heading - h5', () => (
-    <Heading as="h5">{text('Heading text', 'Heading h5')}</Heading>
-  ))
-  .add('heading - h6', () => (
-    <Heading as="h6">{text('Heading text', 'Heading h6')}</Heading>
-  ))
-  .add('heading - h7', () => (
-    <Heading as="h7">{text('Heading text', 'Heading h7')}</Heading>
+  .add('heading - variants', () => (
+    <>
+      <Heading as="h1">
+        {text(
+          'Heading h1',
+          'El veloz murciélago hindú comía feliz cardillo y kiwi. H1',
+        )}
+      </Heading>
+      <Heading as="h2">
+        {text(
+          'Heading h2',
+          'El veloz murciélago hindú comía feliz cardillo y kiwi. H2',
+        )}
+      </Heading>
+      <Heading as="h3">
+        {text(
+          'Heading h3',
+          'El veloz murciélago hindú comía feliz cardillo y kiwi. H3',
+        )}
+      </Heading>
+      <Heading as="h4">
+        {text(
+          'Heading h4',
+          'El veloz murciélago hindú comía feliz cardillo y kiwi. H4',
+        )}
+      </Heading>
+      <Heading as="h5">
+        {text(
+          'Heading h5',
+          'El veloz murciélago hindú comía feliz cardillo y kiwi. H5',
+        )}
+      </Heading>
+      <Heading as="h6">
+        {text(
+          'Heading h6',
+          'El veloz murciélago hindú comía feliz cardillo y kiwi. H6',
+        )}
+      </Heading>
+      <Heading as="h7">
+        {text(
+          'Heading h7',
+          'El veloz murciélago hindú comía feliz cardillo y kiwi. H7',
+        )}
+      </Heading>
+    </>
   ))

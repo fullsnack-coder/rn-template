@@ -1,17 +1,14 @@
+/* eslint-disable react-native/no-inline-styles */
 import React from 'react'
-import { Text, StatusBar, View, StyleProp, ViewStyle } from 'react-native'
+import { StatusBar, ScrollView } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
-import { ScrollView } from 'react-native-gesture-handler'
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context'
-import { ThemeProvider } from './src/theme'
+import { ThemeProvider } from './theme'
+
+import Box from './components/Box'
+import Typography from './components/Typography'
 
 const App = () => {
-  const containerStyles: StyleProp<ViewStyle> = {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  }
-
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -19,9 +16,9 @@ const App = () => {
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           contentContainerStyle={{ flex: 1 }}>
-          <View style={containerStyles}>
-            <Text>Initial configuration</Text>
-          </View>
+          <Box.View flex={1} justifyContent="center" alignItems="center">
+            <Typography.P>Initial configuration</Typography.P>
+          </Box.View>
         </ScrollView>
       </SafeAreaView>
     </>
@@ -40,4 +37,4 @@ const AppWrapper = () => (
 
 const STORYBOOK_STARTS = false
 
-export default STORYBOOK_STARTS ? require('./storybook').default : AppWrapper
+export default STORYBOOK_STARTS ? require('../storybook').default : AppWrapper
